@@ -58,7 +58,6 @@ user agent stylesheet body {
     display: block;
     margin: 8px;
 }
-
 .FirstViewContent {
     margin-bottom: 70px;
     width: 50%;
@@ -124,8 +123,27 @@ html {
     text-align: center;
     padding: 0 20px;
     font-size: 12px;
+    transition: opacity 0.2s;
 }
 
+.HeaderNavListItem__button:hover{
+    opacity: .8;
+}
+
+.HeaderNavListItem__link:hover {
+    opacity: .8;
+}
+
+.sp-none:hover {
+    opacity: .8;
+}
+.ps-none:hover {
+    opacity: .8;
+}
+
+.HeaderLogo__image:hover {
+    opacity: .8;
+}
 .FirstView {
     background-image: none;
     padding-top: 100px;
@@ -578,3 +596,5 @@ p {
     line-height: 26px;
     margin-bottom: 16px;
 }
+
+
